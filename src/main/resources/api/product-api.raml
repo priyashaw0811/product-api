@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: product-api for demo
+description: This raml is designed to create product demo flow
+baseUri: http://localhost:8088/products
+/getproduct:
+  get:
+    description: to get product details
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productID":"1234",
+                "productName":"Chinna mule course",
+                "productProvider":"Udemy",
+                "productDescription": "Complete mule developer couse"
+              }
