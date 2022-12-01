@@ -11,10 +11,10 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-  productID: "12345",
-  productName: "Chinna mulesoft course",
+  productID: "1234",
+  productName: "Chinna mule course",
   productProvider: "Udemy",
-  productDescription: "Complete mule 4.X developer couse"
+  productDescription: "Complete mule developer couse"
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
